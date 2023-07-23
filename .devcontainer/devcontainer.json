@@ -15,7 +15,8 @@
 			"extensions": [
 				"ms-dotnettools.csharp",
 				"josefpihrt-vscode.roslynator",
-				"eamodio.gitlens"
+				"eamodio.gitlens",
+				"formulahendry.dotnet-test-explorer"
 			]
 		}
 	},
@@ -29,8 +30,8 @@
 	// }
 
     // Use 'postCreateCommand' to run commands after the container is created.
-    "postCreateCommand": "dotnet dev-certs https",
+    "postCreateCommand": "dotnet dev-certs https"
 
 	// Uncomment to connect as root instead. More info: https://aka.ms/dev-containers-non-root.
-	"remoteUser": "root"
+	// "remoteUser": "root"
 }
